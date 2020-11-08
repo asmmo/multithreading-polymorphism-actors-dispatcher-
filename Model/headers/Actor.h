@@ -2,8 +2,8 @@
 // Created by asmmo on 9/23/2020.
 //
 
-#ifndef TESTB_ACTOR_H
-#define TESTB_ACTOR_H
+#ifndef MULTITHREADING_POLYMORPHISM_ACTORS_DISPATCHER_MVC_ACTOR_H
+#define MULTITHREADING_POLYMORPHISM_ACTORS_DISPATCHER_MVC_ACTOR_H
 
 #include <string>
 #include <atomic>
@@ -26,9 +26,10 @@ public:
 
     virtual void increase() = 0;
     virtual void decrease() = 0;
+    virtual ~Actor() = default;
 
 };
 
 
 
-#endif //TESTB_ACTOR_H
+#endif //MULTITHREADING_POLYMORPHISM_ACTORS_DISPATCHER_MVC_ACTOR_H

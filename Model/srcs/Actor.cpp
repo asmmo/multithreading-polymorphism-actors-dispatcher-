@@ -2,7 +2,7 @@
 // Created by asmmo on 9/23/2020.
 //
 
-#include "Actor.h"
+#include <Actor.h>
 Actor::Actor(const std::string & nameArg):count{0}, name{nameArg}{
     ++countOfActors;
 }

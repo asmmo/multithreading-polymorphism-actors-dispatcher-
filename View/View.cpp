@@ -2,7 +2,7 @@
 // Created by asmmo on 9/24/2020.
 //
 
-#include "View.h"
+#include <View.h>
 
 void View::printActorInfo(const Actor& actor){
 

@@ -2,7 +2,7 @@
 // Created by asmmo on 9/23/2020.
 //
 
-#include "Worker.h"
+#include <Worker.h>
 
 Worker::Worker(std::unique_ptr<Actor> && actor_):tasksCV{ new std::condition_variable }, tasksMutex{new std::mutex},
     tasks{}, actor{std::move(actor_)}, workerThread{}, tasksFinishedFlag{ new std::atomic_bool{false}}

@@ -2,7 +2,7 @@
 // Created by asmmo on 9/24/2020.
 //
 
-#include "Controller.h"
+#include <Controller.h>
 
 size_t Controller::getSizeTInput(Dispatcher& model, size_t to) {
 
