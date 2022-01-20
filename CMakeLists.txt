@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 project(multithreading-polymorphism-actors-dispatcher-MVC)
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 add_executable(multithreading-polymorphism-actors-dispatcher-MVC main.cpp
         Model/srcs/Actor.cpp
         Model/srcs/AutoDecrease.cpp
